@@ -1,5 +1,5 @@
 {
-  "name": "libyuv",
+  "name": "@cubicleai/yuv",
   "version": "0.1.3",
   "keywords": [
     "video",
@@ -9,11 +9,11 @@
   ],
   "description": "Bindings to libyuv, provides conversion utilities for in-memory YUV video frames",
   "repository": {
-    "url": "https://github.com/astronautlabs/libyuv-node.git"
+    "url": "https://github.com/cubicleai/yuv.git"
   },
-  "homepage": "https://github.com/astronautlabs/libyuv-node",
+  "homepage": "https://github.com/cubicleai/yuv",
   "bugs": {
-    "url": "https://github.com/astronautlabs/libyuv-node/issues"
+    "url": "https://github.com/cubicleai/yuv/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,6 +38,12 @@
     "name": "Astronaut Labs",
     "url": "https://astronautlabs.com/"
   },
+  "contributors": [
+    {
+      "name": "Cubicle, Inc.",
+      "url": "https://cubicle.ai"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.12",
