@@ -1,8 +1,7 @@
-# libyuv-node
+# @cubicleai/yuv
 ## Node.js bindings for Chromium's [libyuv](https://chromium.googlesource.com/libyuv/libyuv/) library. 
 
-[![Version](https://img.shields.io/npm/v/libyuv.svg)](https://www.npmjs.com/package/libyuv)
-[![CircleCI](https://circleci.com/gh/astronautlabs/libyuv-node.svg?style=svg)](https://circleci.com/gh/astronautlabs/libyuv-node)
+[![Version](https://img.shields.io/npm/v/@cubicleai/yuv.svg)](https://www.npmjs.com/package/@cubicleai/yuv)
 
 
 libyuv is an open source project that includes YUV scaling and conversion functionality.
@@ -24,7 +23,7 @@ is available in your `PATH`.
 
 Then:
 ```
-npm install libyuv
+npm install @cubicleai/yuv
 ```
 
 You will need `cmake` available on any system (such as CI) which builds your 
@@ -38,7 +37,7 @@ and vice versa. You may also need to scale the video frame from one size to anot
 performantly with various sampling methods. `libyuv` provides these capabilities,
 and using this binding you can very easily perform these conversions.
 
-It works very well with libraries like [node-webrtc](https://github.com/node-webrtc/node-webrtc).
+It works very well with libraries like [@cubicleai/wrtc](https://github.com/@cubicleai/wrtc).
 
 ## Building
 
